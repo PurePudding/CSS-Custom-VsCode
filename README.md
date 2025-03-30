@@ -1,8 +1,19 @@
-# CSS Custom for VSCode
+# VSCode Custom CSS
 
-This repository serves as documentation for customizing the default VSCode appearance using CSS. By default, VSCode's styling is determined by the built-in theme settings, but users can modify its look and feel according to their preferences. This documentation provides guidance on how to locate, modify, and apply custom CSS to enhance the user interface.
+This repository documents how to customize the default VSCode appearance using CSS. By default, VSCode enforces its built-in theme, but with the help of an extension, users can apply their own custom styles.
 
-The purpose of this repository is to provide a reference for users who wish to personalize their VSCode environment. It covers essential steps for modifying the interface, including changing colors, adjusting layout styles, and applying custom themes. Users can experiment with different styles to create a more visually appealing and comfortable workspace.
+## How to Apply Custom CSS
+To apply these custom styles, you need to install and configure the **Enable Custom CSS and JS Loader** extension in VSCode. Follow these steps:
 
-Feedback on the customization process, styling suggestions, or usability improvements is highly appreciated. Contributions such as corrections, additional styling techniques, or enhancements to existing instructions are welcome through pull requests.
+1. Install the extension: **Enable Custom CSS and JS Loader** from the VSCode marketplace.
+2. Open VSCode settings and specify the path to your custom CSS file.
+3. Run the command `Enable Custom CSS and JS` from the command palette (`Ctrl+Shift+P`).
+4. Restart or reload VSCode (`Ctrl+Shift+P` → `Reload Window`).
+5. Repeat step 3 and 4 whenever VSCode updates, as updates may reset the applied styles.
 
+## Purpose of This Repository
+This repository serves as a reference for users who want to personalize their VSCode interface by modifying:
+- Colors
+- Fonts
+- Layout styles
+- Other visual elements
